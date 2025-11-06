@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVerse - Portal Gamer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-dark text-light shadow">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo.png" alt="GameVerse" height="40" class="me-2">
+          <span class="fw-bold">GameVerse</span>
+        </a>
+
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuGameVerse" aria-controls="menuGameVerse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="menuGameVerse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="juegos.html">Juegos</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Hero principal -->
+  <section class="hero d-flex align-items-center text-center text-light">
+    <div class="container">
+      <h2 class="display-4 text-shadow fw-bold">Explora el universo gamer</h2>
+      <p class="lead">Novedades, análisis y los mejores títulos del momento.</p>
+      <a href="juegos.html" class="btn btn-primary btn-lg mt-3">Ver juegos</a>
+    </div>
+  </section>
+
+  <!-- Secciones -->
+  <main class="container my-5">
+    <section class="text-center mb-5">
+      <h3 class="text-uppercase fw-bold mb-4">Lo mejor del mundo gamer</h3>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm hover-up">
+            <img src="img/juego1.jpg" class="card-img-top" alt="Juegos destacados">
+            <div class="card-body">
+              <h5 class="card-title">Top Juegos</h5>
+              <p class="card-text">Descubre los títulos más jugados del año y sus valoraciones.</p>
+              <a href="juegos.html" class="btn btn-outline-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm hover-up">
+            <img src="img/juego2.jpg" class="card-img-top" alt="Noticias">
+            <div class="card-body">
+              <h5 class="card-title">Últimos Lanzamientos</h5>
+              <p class="card-text">Mantente al día con los juegos más esperados del año.</p>
+              <a href="juegos.html" class="btn btn-outline-primary">Explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm hover-up">
+            <img src="img/fondo.jpg" class="card-img-top" alt="Contacto">
+            <div class="card-body">
+              <h5 class="card-title">Contáctanos</h5>
+              <p class="card-text">¿Tienes sugerencias o quieres colaborar con GameVerse?</p>
+              <a href="contacto.html" class="btn btn-outline-primary">Escríbenos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-light py-3 mt-auto">
+    <p class="mb-0">&copy; 2025 GameVerse. Proyecto web DAM1 - IES El Majuelo.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
