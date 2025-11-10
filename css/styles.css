@@ -203,6 +203,10 @@ form {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
+form .form-control::placeholder {
+  color: #888; 
+  opacity: 1;
+}
 
 form .form-control {
   background-color: #1f2833;
