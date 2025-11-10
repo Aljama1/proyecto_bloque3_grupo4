@@ -199,6 +199,10 @@ header {
 
 
 /* ---------- FORMULARIO DE CONTACTO ---------- */
+#contacto{
+  background: url('../img/fondo2.png') center/cover no-repeat;
+}
+
 form {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 10px;

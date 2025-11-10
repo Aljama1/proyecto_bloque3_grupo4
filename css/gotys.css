@@ -10,7 +10,7 @@ body {
 
 /* --- Hero --- */
 .hero {
-  background: url('../img/fondo.png') center center / cover no-repeat;
+  background: url('../img/fondo2.png') center center / cover no-repeat;
   min-height: 50vh;
   display: flex;
   justify-content: center;
