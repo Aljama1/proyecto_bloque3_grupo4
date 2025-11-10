@@ -30,7 +30,7 @@ header {
 
 /* ---------- HERO (Portada principal) ---------- */
 .hero {
-  background: url('../img/fondo.png') center/cover no-repeat;
+  background: url('../img/fondo2.png') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
